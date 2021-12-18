@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CDaaYj47KveZ4oAeNKP9JMHapvoFohy92dNHYnEFIukhMGoy0ZX9qSSrVUeh2zbFvuwklRCmwrdSV2RLNBGmJg==",
+  "dgSpecHash": "h6N9dlNdZJI6QzsqOgbC6YfMOv4gBtsQDAPPPobXGQeDHRHDF5hX99YnukGxxIm8EFBajESrcc3/AxPfFCJhkQ==",
   "success": true,
-  "projectFilePath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
+  "projectFilePath": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
   "expectedPackageFiles": [
+    "/home/theo/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/theo/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/home/theo/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/theo/.nuget/packages/microsoft.data.sqlite.core/6.0.1/microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
     "/home/theo/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "/home/theo/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.1/microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
@@ -35,6 +38,7 @@
     "/home/theo/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/theo/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/home/theo/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/theo/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/theo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/theo/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/home/theo/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"

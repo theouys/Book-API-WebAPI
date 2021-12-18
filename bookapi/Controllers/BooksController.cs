@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using bookapi.Repositories;
 using bookapi.Models;
+using AutoMapper;
+using bookapi.Dtos;
 
 namespace BookAPI.Controller
 {
@@ -14,22 +16,32 @@ namespace BookAPI.Controller
     public  class BooksController : ControllerBase 
     {
         private readonly IBookRepository _bookRepository;
+        private readonly IMapper _mapper;
 
-        public BooksController(IBookRepository bookRepository)
+        public BooksController(IBookRepository bookRepository, IMapper mapper)
         {
             _bookRepository = bookRepository;      
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Book>> GetBooks() 
+        public async Task<IEnumerable<BookReadDto>> GetBooks() 
         {
-            return await _bookRepository.Get();
+            var Booktmp = await _bookRepository.Get();
+            return _mapper.Map<IEnumerable<BookReadDto>>(Booktmp);
+            //return Booktmp;
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Book>> GetBooks(int id) 
+        public async Task<ActionResult<BookReadDto>> GetBooks(int id) 
         {
-            return await _bookRepository.Get(id);
+            var Booktmp = await _bookRepository.Get(id);
+            if (Booktmp != null) {
+               //return await _bookRepository.Get(id);
+               return Ok(_mapper.Map<BookReadDto>(Booktmp));
+            } else {
+                return NotFound();
+            }
         }
 
         [HttpPost]

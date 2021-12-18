@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj": {}
+    "/home/theo/Documents/develop/bookapi/bookapi.csproj": {}
   },
   "projects": {
-    "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj": {
+    "/home/theo/Documents/develop/bookapi/bookapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
+        "projectUniqueName": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
         "projectName": "bookapi",
-        "projectPath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
+        "projectPath": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
         "packagesPath": "/home/theo/.nuget/packages/",
-        "outputPath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/obj/",
+        "outputPath": "/home/theo/Documents/develop/bookapi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/theo/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.1, )"
