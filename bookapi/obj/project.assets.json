@@ -1274,11 +1274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
+      "projectUniqueName": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
       "projectName": "bookapi",
-      "projectPath": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
+      "projectPath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
       "packagesPath": "/home/theo/.nuget/packages/",
-      "outputPath": "/home/theo/Documents/develop/bookapi/obj/",
+      "outputPath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/theo/.nuget/NuGet/NuGet.Config"

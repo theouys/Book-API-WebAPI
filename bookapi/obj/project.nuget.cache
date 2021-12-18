@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FFlWZF1R3UQDtx35TQm3LOHJJjsuH5vIF8R757XWQWmyDkmYR2k+YyzvVELrmTaAWnv8MC8Dx8vJqLSeluFJ8Q==",
+  "dgSpecHash": "CDaaYj47KveZ4oAeNKP9JMHapvoFohy92dNHYnEFIukhMGoy0ZX9qSSrVUeh2zbFvuwklRCmwrdSV2RLNBGmJg==",
   "success": true,
-  "projectFilePath": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
+  "projectFilePath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
   "expectedPackageFiles": [
     "/home/theo/.nuget/packages/microsoft.data.sqlite.core/6.0.1/microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
     "/home/theo/.nuget/packages/microsoft.entityframeworkcore/6.0.1/microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
