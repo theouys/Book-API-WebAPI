@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//Check Youtube https://www.youtube.com/watch?v=fmvcAzHpsk8
 // Add services to the container.
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<IBookRepository, BookRepository>();

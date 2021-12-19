@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h6N9dlNdZJI6QzsqOgbC6YfMOv4gBtsQDAPPPobXGQeDHRHDF5hX99YnukGxxIm8EFBajESrcc3/AxPfFCJhkQ==",
+  "dgSpecHash": "TH6DEcG+DYgVh0rGQRQmQ9LsMW3O5FwIAYqcBTGEkotceB5g3sdhs1Y9HSggLZbcwgO2oy9AiwRPBfcL2v+pEQ==",
   "success": true,
-  "projectFilePath": "/home/theo/Documents/develop/bookapi/bookapi.csproj",
+  "projectFilePath": "/home/theo/Documents/develop/git/Book-API-WebAPI/bookapi/bookapi.csproj",
   "expectedPackageFiles": [
     "/home/theo/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/theo/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
